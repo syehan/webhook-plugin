@@ -1,0 +1,14 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    payload_url:
+        label: URL
+        searchable: true
+    content_type:
+        label: Content-Type
+        searchable: true
+    is_active:
+        label: Active
+        type: switch

@@ -1,0 +1,23 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    payload_url:
+        label: Payload URL
+        required: true
+        span: full
+    content_type:
+        label: Content-Type
+        type: dropdown
+        span: auto
+    secret:
+        label: Secret
+        span: auto
+    is_active:
+        label: Activate
+        type: switch
+        span: full
+    events:
+        label: Events
+        type: checkboxlist

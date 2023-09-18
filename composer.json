@@ -1,0 +1,30 @@
+{
+    "name": "syehan/webhook-plugin",
+    "type": "october-plugin",
+    "homepage": "https://github.com/syehan/webhook-plugin",
+    "license": "MIT",
+    "description": "Webhooks allow external services to be notified when certain events happen. When the specified events happen, we’ll send a POST request to each of the URLs you provide.",
+    "keywords": [
+        "webhook",
+        "syehan",
+        "laravel",
+        "october",
+        "octobercms",
+        "webhook server",
+        "spatie",
+        "event",
+        "payload"
+    ],
+    "authors": [
+        {
+          "name": "Syehan",
+          "email": "sehanlim@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "composer/installers": "~1.0",
+        "spatie/laravel-webhook-server": "^3.4"
+
+    }
+}

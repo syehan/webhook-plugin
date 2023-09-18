@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Webhook
+
+# Model Form Field configuration
+form: $/syehan/webhook/models/webhook/fields.yaml
+
+# Model Class name
+modelClass: Syehan\Webhook\Models\Webhook
+
+# Default redirect location
+defaultRedirect: syehan/webhook/webhooks
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: syehan/webhook/webhooks/update/:id
+    redirectClose: syehan/webhook/webhooks
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: syehan/webhook/webhooks
+    redirectClose: syehan/webhook/webhooks
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
